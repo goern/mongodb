@@ -59,7 +59,7 @@
                 - "mongodb"
               from:
                 kind: "ImageStreamTag"
-                name: "mongodb:latest"
+                name: "mongodb:3.2"
                 namespace: "openshift"
               lastTriggeredImage: ""
           -
