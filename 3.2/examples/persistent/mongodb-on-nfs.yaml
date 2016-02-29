@@ -116,7 +116,7 @@
               -
                 name: "${DATABASE_SERVICE_NAME}-data"
                 persistentVolumeClaim:
-                  claimName: "${DATABASE_SERVICE_NAME}-claim"
+                  claimName: "${DATABASE_SERVICE_NAME}"
             restartPolicy: "Always"
             dnsPolicy: "ClusterFirst"
       status: {}
