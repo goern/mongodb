@@ -90,7 +90,7 @@
             containers:
               -
                 name: "mongodb"
-                image: "openshift/mongodb-32-centos7"
+                image: "goern/mongodb-32-centos7"
                 env:
                   -
                     name: "MONGODB_USER"
